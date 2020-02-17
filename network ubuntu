@@ -1,0 +1,14 @@
+network:
+
+ethernets:
+
+ens160:
+
+  addresses: [10.0.5.12/24]
+
+  gateway4: 10.5.0.2
+
+  nameservers:
+
+    addresses: [10.0.5.5]
+version: 2
