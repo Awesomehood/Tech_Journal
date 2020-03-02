@@ -1,0 +1,9 @@
+---
+  - hosts: datadog
+    remote_user: deployer
+    become: yes
+    roles:
+        - role: datadog.datadog
+    vars:
+      install_utilites: true
+      firewall_enable: true
